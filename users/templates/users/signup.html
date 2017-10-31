@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% load bootstrap3 %}
+{% block title %} SIGN UP | {{block.super}} {% endblock %}
+{% block content %}
+<div class = "container pt">
+<div class = "row">
+  <div class = "col-md-6">
+    <form action = "" method= "POST">
+      <h3>SIGN UP </h3>
+          {% bootstrap_form form %}
+          {% csrf_token%}
+          <input type = "submit" value = "Sign Up" class = "btn btn-primary">
+    </form>
+  </div>
+
+  <div class = "col-md-6">
+    <h2> Tell us how you're feeling today </h2>
+    <p> Any broken bottle can know a rattlesnake beyond the Brewers Reserve , but it takes a real rattlesnake to know a Coors. When you see a sudsy malt, it means that the obsequious Sierra Nevada Pale Ale meditates. Indeed, a hammered Christmas Ale borrows money from a ravishing spudgun. A Long Trail Ale toward the Labatts laughs and drinks all night with a ravishing Honey Brown. Now and then, the greasy Harpoon avoids contact with a Hoptoberfest of the bill.</p>
+  </div>
+</div>
+</div>
+
+{% endblock %}

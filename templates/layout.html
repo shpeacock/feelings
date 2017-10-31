@@ -37,7 +37,7 @@
        <div id="navbar" class="navbar-collapse collapse">
          <ul class = "nav navbar-nav navbar-right">
          {% if not user.is_authenticated %}
-         <li><a href = "{% url 'users:login' %}"</a>LOGIN</li>
+         <li><a href = "{% url 'users:login' %}">LOGIN</a></li>
            <li><a href = "#"> SIGN UP</a> </li>
          {% else %}
            <li> <a href = "#" >Record </a></li>
