@@ -7,7 +7,7 @@ cffi==1.10.0
 chardet==3.0.4
 confusable-homoglyphs==2.0.2
 crispy-forms-materialize==0.2
-Django==1.11.6
+Django==1.11.23
 django-bootstrap3==9.1.0
 django-crispy-forms==1.6.1
 django-extensions==1.8.1
